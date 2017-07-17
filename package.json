@@ -1,0 +1,27 @@
+{
+  "name": "rocketleague-tracker-network",
+  "version": "0.1.0",
+  "description": "A node wrapper to the rocketleague.tracker.network api",
+  "main": "out/index.js",
+  "scripts": {
+    "build": "./node_modules/.bin/tsc",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/pfeiferj/node-rocketleague-tracker-network.git"
+  },
+  "author": "pfeiferj",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/pfeiferj/node-rocketleague-tracker-network/issues"
+  },
+  "homepage": "https://github.com/pfeiferj/node-rocketleague-tracker-network#readme",
+  "devDependencies": {
+    "@types/node": "^8.0.13",
+    "typescript": "^2.4.1"
+  },
+  "dependencies": {
+    "request": "^2.81.0"
+  }
+}
