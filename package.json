@@ -3,6 +3,7 @@
   "version": "0.1.0",
   "description": "A node wrapper to the rocketleague.tracker.network api",
   "main": "out/index.js",
+  "typings": "out/index.d.ts",
   "scripts": {
     "build": "./node_modules/.bin/tsc",
     "test": "echo \"Error: no test specified\" && exit 1"
